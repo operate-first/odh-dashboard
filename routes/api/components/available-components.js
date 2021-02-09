@@ -101,5 +101,14 @@ module.exports = [
     route: "thriftserver",
     img: "images/spark.svg",
     docsLink: "https://spark.apache.org/docs/latest/sql-distributed-sql-engine.html",
+  },
+  {
+    key: "kubeflow-pipelines",
+    label: "Kubeflow Pipelines",
+    description: "Platform for building and deploying portable and scalable end-to-end ML workflows",
+    kfdefApplications: ["kubeflow-apps", "kfp-tekton"],
+    route: "ml-pipeline-ui",
+    img: "images/kubeflow.svg",
+    docsLink: "https://www.kubeflow.org/docs/components/pipelines/pipelines/",
   }
 ];
